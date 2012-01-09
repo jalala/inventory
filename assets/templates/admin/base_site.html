@@ -1,0 +1,12 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'Semaja Invntory management system' %}{% endblock %}
+{% block extrastyle %}
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/extra-admin.css"/>
+{% endblock %}
+{% block branding %}
+<h1 id="site-name">{% trans 'Semaja inventory managment system' %}</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

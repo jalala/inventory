@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-07 11:28+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: assets/templates/admin/base_site.html:4
+msgid "Semaja Invntory management system"
+msgstr "سیستم مدیریت اموال سماجا"
+
+#: assets/templates/admin/base_site.html:7
+msgid "Semaja inventory managment system"
+msgstr "سیستم مدیریت اموال سماجا"
+
+#: assets/templates/registration/login.html:17
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "لطفا خطای زیر را تصحیح کنید"
+msgstr[1] "لطفا خطاهای زیر را تصحیح کنید"
+
+#: assets/templates/registration/login.html:33
+msgid "Username:"
+msgstr "نام کاربری :"
+
+#: assets/templates/registration/login.html:37
+msgid "Password:"
+msgstr "رمز عبور :"
+
+#: assets/templates/registration/login.html:42
+msgid "Log in"
+msgstr ""
+
+#: inventory/models.py:7
+msgid "section_name"
+msgstr "قسمت"
+
+#: inventory/models.py:9
+msgid "Section"
+msgstr "قسمت"
+
+#: inventory/models.py:10
+msgid "Sections"
+msgstr "قسمت ها"
+
+#: inventory/models.py:15
+msgid "room_name"
+msgstr "نام"
+
+#: inventory/models.py:16
+msgid "room_section"
+msgstr "قسمت"
+
+#: inventory/models.py:18
+msgid "Room"
+msgstr "اتاق"
+
+#: inventory/models.py:19
+msgid "Rooms"
+msgstr "اتاق ها"
+
+#: inventory/models.py:24
+msgid "item_room"
+msgstr "نام کالا"
+
+#: inventory/models.py:25
+msgid "item_number"
+msgstr "شماره اموال"
+
+#: inventory/models.py:26
+msgid "item_name"
+msgstr "نام کالا"
+
+#: inventory/models.py:27
+msgid "item_unit"
+msgstr "واحد"
+
+#: inventory/models.py:28
+msgid "item_count"
+msgstr "تعداد"
+
+#: inventory/models.py:29
+msgid "comment"
+msgstr "توضیحات"
+
+#: inventory/models.py:31
+msgid "Item"
+msgstr "کالا"
+
+#: inventory/models.py:32
+msgid "Items"
+msgstr "کالاها"
+
+#~ msgid "Add another"
+#~ msgstr "اضافه کردن یکی دیگر"

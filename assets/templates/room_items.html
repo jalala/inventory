@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>اقلام اتاق</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/inventory-report.css"/>
+</head>
+<body dir="rtl">
+<table class="margin-table" border="3" align="center"/>
+<tr><td valign="top" height="8in">
+    <p align="center">بسمه تعالی</p>
+    <p align="center">لیست موجودی اقلام دارایی اتاق {{ room.name }}
+    <table border="1">
+        <tr>
+            <th width="100" align="center">شماره اموال</th>
+            <th width="200" align="center">نام جنس</th>
+            <th width="100" align="center">واحد</th>
+            <th width="100" align="center">تعداد</th>
+            <th width="400">توضیحات</th>
+        </tr>
+        {% for item in room.items.iterator  %}
+                <tr>
+                    <td  align="center">{{ item.item_number }}</td>
+                    <td  align="center">{{ item.name }}</td>
+                    <td  align="center">{{ item.unit }}</td>
+                    <td  align="center">{{ item.count }}</td>
+                    <td align="center">{{ item.comment }}</td>
+                </tr>
+        {% endfor %}
+    </table>
+    <div class="signature-left">
+        <p>امضا رییس قسمت :</p>
+        <br>
+        <p>امضا فرمانده پشتیبانی :</p>
+    </div>
+    <div class="signature-right">
+        <p>امضا تحویل دهنده :</p>
+        <br>
+        <p>امضا تحویل گیرنده :</p>
+    </div>
+</td>
+</tr>
+
+</table>
+</body>
+</html>

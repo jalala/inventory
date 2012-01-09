@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "MyNassim";
+    src: url("fonts/nassim-regular.eot");
+    src: local("☺"),
+         url("fonts/nassim-regular.woff") format("woff"),
+         url("fonts/nassim-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyNassim";
+    src: url("fonts/nassim-bold.eot");
+    src: local("☺"),
+         url("fonts/nassim-bold.woff") format("woff"),
+         url("fonts/nassim-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: "MyNassim";
+}
+td, th {
+    font-family: "MyNassim";
+}
+input, textarea, select, .form-row p {
+    font-family: "MyNassim";
+}
+.object-tools {
+    font-family: "MyNassim";
+}
+code, pre {
+    font-family: "MyNassim";
+}
+.change-list .filtered .results, .change-list .filtered .paginator, .filtered #toolbar, .filtered div.xfull {
+    margin-left: 160px !important;
+    margin-right: 0px !important;
+    width: auto !important;
+}
+
